@@ -13,13 +13,21 @@ df <- read.csv("C:/Users/srenne/Dropbox/R/R_Projects/PathologyAI/input/timelineD
 # Prepare the data as dates
 #df$time <- ymd(df$time, truncated = 2L)
 
+
+png("figures/lollipop.png", 
+    width     = 6.5,
+    height    = 3.25,
+    units     = "in",
+    res       = 1200,
+    pointsize = 5.5)
+
 # Plot setup
 plot(NULL, bty= "n",  ylim = c(0, 0.8), yaxt = "n",
      xlim = minMAX(df$time) ,
      xlab = "Year", ylab = "", 
      main = "Timeline of AI Milestones", axes = TRUE)
 
-abline(h = 0)
+abline(h = 0, lwd=2)
 # Draw lollipop sticks
 segments(df$time, 0, df$time, 0.3, lwd = 2)
 
@@ -34,3 +42,5 @@ text(
   rep(0.32, length(df$time)), 
   labels = paste0(df$event," (",df$time,")"),
   pos = 4, cex = 1.2, srt = 45, adj = 1)
+
+dev.off()
