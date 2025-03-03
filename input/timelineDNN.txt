@@ -1,0 +1,11 @@
+time, event, reference
+1943, "Artificial Neuron Network", "McCulloch WS, Pitts W (December 1943). "A logical calculus of the ideas immanent in nervous activity". The Bulletin of Mathematical Biophysics. 5 (4): 115–133. doi:10.1007/BF02478259. ISSN 0007-4985."
+1951, "Stochastic gradient descent", "Robbins H, Monro S (1951). "A Stochastic Approximation Method". The Annals of Mathematical Statistics. 22 (3): 400. doi:10.1214/aoms/1177729586."
+1957, "Perceptron", "Report 85-460-1. Cornell Aeronautical Laboratory."
+1960, "Mark I Perceptron", "Nilsson, Nils J. (2009). "4.2.1. Perceptrons". The Quest for Artificial Intelligence. Cambridge: Cambridge University Press. ISBN 978-0-521-11639-8." 
+1967, "Stochastic gradient descent training", "Amari S (1967). "A theory of adaptive pattern classifier". IEEE Transactions. EC (16): 279–307."
+1969, "ReLU", "Fukushima K (1969). "Visual feature extraction by a multilayered network of analog threshold elements". IEEE Transactions on Systems Science and Cybernetics. 5 (4): 322–333. doi:10.1109/TSSC.1969.300225."
+1970, "Backpropagation", "Linnainmaa S (1970). The representation of the cumulative rounding error of an algorithm as a Taylor expansion of the local rounding errors (Masters) (in Finnish). University of Helsinki. p. 6–7."
+1979, "Convolutional and downsampling", "Fukushima K (1979). "Neural network model for a mechanism of pattern recognition unaffected by shift in position—Neocognitron". Trans. IECE (In Japanese). J62-A (10): 658–665. doi:10.1007/bf00344251"
+1982, "Backpropagation in Neural Networks", "Werbos P (1982). Applications of advances in nonlinear sensitivity analysis."
+2012, "Deep Learning", "Ng A, Dean J (2012). Building High-level Features Using Large Scale Unsupervised Learning."
