@@ -1,7 +1,7 @@
 # libraries
 library(lubridate)
 minMAX <- function(x){
-  m <- min(x) -15
+  m <- min(x) -10
   M <- max(x) +10
   mM <- c(m,M)
   return(mM)
@@ -16,15 +16,15 @@ dfd <- read.csv("C:/Users/srenne/Dropbox/R/R_Projects/PathologyAI/input/timeline
 #df$time <- ymd(df$time, truncated = 2L)
 
 
-pdf("figures/lollipop.pdf",
+png("figures/lollipop.png",
 width     = 7,
 height    = 6,
-# units     = "in",
-# res       = 1200,
+units     = "in",
+res       = 1200,
 pointsize = 5)
 
 # Plot setup
-plot(NULL, bty= "n",  ylim = c(-1.3, 0.8), yaxt = "n",
+plot(NULL, bty= "n",  ylim = c(-0.9, 0.7), yaxt = "n",
      xlim = minMAX(df$time) ,
      xlab = "Year", ylab = "", 
      main = "Timeline of AI Milestones", axes = TRUE)
@@ -54,7 +54,7 @@ points(dfd$time, rep(-0.3, length(dfd$time)), pch = 19, col = 1:nrow(dfd), cex =
 
 # Offsets to avoid label overlap (modify as needed)
 o <- rep(0, times = nrow(dfd))
-o[4:6] <- c(-1, 0, 1)  # adjust as needed
+o[4:5] <- c(-1, 0)  # adjust as needed
 
 # Add downward labels
 text(
