@@ -1,0 +1,72 @@
+term,fr
+Diagnose,100
+Recognize,70
+Count,50
+Measure,50
+Identify,50
+Quantify,50
+Classify,40
+Analyze,35
+Detect,35
+Assess,30
+Score,25
+Predict,20
+Summarize,20
+Suggest,10
+Evaluate,10
+Count mitosis,15
+Count lymphocytes,10
+Count TILS,10
+Count plasma cells,5
+Count histiocytes,5
+Measure tumor size,20
+Measure distance,10
+Measure nuclear atypia,8
+Measure cytoplasm-to-nucleus ratio,6
+Measure extracellular matrix,5
+Recognize tumor margins,20
+Recognize gland formation,15
+Recognize microcalcifications,5
+Recognize histologic subtypes,15
+Identify necrosis,20
+Identify pleomorphism,10
+Identify perineural invasion,10
+Identify lymphovascular invasion,15
+Identify granulomas,8
+Identify spindle cells,7
+Identify multinucleation,7
+Identify eosinophilia,6
+Identify fungal elements,5
+Identify mast cells,5
+Identify viral cytopathic effect,10
+Quantify fibrosis,10
+Quantify inflammation,10
+Quantify tumor cellularity,15
+Quantify immune infiltration,10
+Quantify angiogenesis,6
+Classify tissue types,15
+Classify immune cells,10
+Analyze chromatin pattern,7
+Analyze nuclear features,10
+Analyze glandular architecture,10
+Detect apoptosis,10
+Detect atypia,12
+Detect necrotic areas,14
+Detect desmoplasia,6
+Detect tumor budding,7
+Detect stromal reaction,6
+Assess mitotic index,20
+Assess tumor heterogeneity,12
+Assess resection margins,25
+Assess recurrence risk,8
+Assess mucin production,5
+Score stainings,5
+Score immune infiltration,10
+Score desmoplasia,6
+Predict molecular profile,5
+Predict recurrence risk,8
+Summarize clinical data,20
+Suggest differential diagnosis,10
+Rewrite gross description,5
+Stage tumors,10
+Grade tumors,20
