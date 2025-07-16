@@ -3,6 +3,6 @@ time,event,reference
 1990,Finding structure in time,"Elman, J (1990). ""Finding structure in time"". Cognitive Science. 14 (2). : 179--211. doi:10.1016/0364-0213(90)90002-E"
 2011,Generating Text with Recurrent Neural Networks,"Martens, James (2011). ""Generating Text with Recurrent Neural Networks"". doi:10.5555/3104482.3104610"
 2017,Attention Is All You Need,"A. Vaswani, et al., Attention Is All You Need. Int. Conf. Inf. Knowl. Manag. Proc., 4752–4758 (2023)."
-2018,Improving Language Understanding by Generative Pre-Training,"Radford, Alec and Salimans, Tim (2018). ""Improving Language Understanding by Generative Pre-Training"". : 1--12"
+2018,Improving Language Understanding by GPT,"Radford, Alec and Salimans, Tim (2018). ""Improving Language Understanding by Generative Pre-Training"". : 1--12"
 2020,Language Models are Few-Shot Learners,"Brown, Tom B and Kaplan, Jared and Ryder, Nick and Henighan, Tom and Chen, Mark and Herbert-voss, Ariel and Ziegler, Daniel M and Krueger, Gretchen and Askell, Amanda and Hesse, Christopher and Mccandlish, Sam (2020). ""Language Models are Few-Shot Learners"""
 2023,GPT-4 Technical Report,"OpenAI (2023) (2023). ""GPT-4 Technical Report"". 4. : 1--100"

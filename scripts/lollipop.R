@@ -18,39 +18,39 @@ dfd <- read.csv("C:/Users/srenne/Dropbox/R/R_Projects/PathologyAI/input/timeline
 
 png("figures/lollipop.png",
 width     = 7,
-height    = 6,
+height    = 4.3,
 units     = "in",
 res       = 1200,
 pointsize = 5)
 
 # Plot setup
-plot(NULL, bty= "n",  ylim = c(-0.9, 0.7), yaxt = "n",
+plot(NULL, bty= "n",  ylim = c(-0.8, 0.6), yaxt = "n",
      xlim = minMAX(df$time) ,
      xlab = "Year", ylab = "", 
      main = "Timeline of AI Milestones", axes = TRUE)
 
 abline(h = 0, lwd=2)
 # Draw lollipop sticks
-segments(df$time, 0, df$time, 0.3, lwd = 2)
+segments(df$time, 0, df$time, 0.15, lwd = 2)
 
 # Draw lollipop heads
-points(df$time, rep(0.3, length(df$time)), pch = 19, col = 1:nrow(df), cex = 2)
+points(df$time, rep(0.15, length(df$time)), pch = 19, col = 1:nrow(df), cex = 2)
 
 # Add event labels
 o <- rep(0, times = nrow(df)) #create offset to avoid overlap
 o[5:7] <- c(-0.5,0,1)
 text(
   df$time + o -1, 
-  rep(0.32, length(df$time)), 
+  rep(0.157, length(df$time)), 
   labels = paste0(df$event," (",df$time,")"),
   pos = 4, cex = 1.2, srt = 45, adj = 1)
 
 
 # Draw lollipop sticks downward
-segments(dfd$time, 0, dfd$time, -0.3, lwd = 2)
+segments(dfd$time, 0, dfd$time, -0.15, lwd = 2)
 
 # Draw lollipop heads
-points(dfd$time, rep(-0.3, length(dfd$time)), pch = 19, col = 1:nrow(dfd), cex = 2)
+points(dfd$time, rep(-0.15, length(dfd$time)), pch = 19, col = 1:nrow(dfd), cex = 2)
 
 # Offsets to avoid label overlap (modify as needed)
 o <- rep(0, times = nrow(dfd))
@@ -59,7 +59,7 @@ o[4:5] <- c(-1, 0)  # adjust as needed
 # Add downward labels
 text(
   dfd$time + o,  # no manual subtraction here
-  rep(-0.32, length(dfd$time)),
+  rep(-0.157, length(dfd$time)),
   labels = paste0(dfd$event, " (", dfd$time, ")"),
   srt = 45,
   adj = c(1, 0.5),  # right-align
